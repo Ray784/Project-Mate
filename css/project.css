@@ -1,0 +1,87 @@
+body
+{
+  font-size: 20px;
+  background-color: #d3d3d3;
+}
+.project
+{
+  background-color: white;
+  width: 70%;
+  border-radius: 7px;
+  margin-top:0;
+  padding:3%;
+}
+
+@media only screen and (max-width: 800px) {
+  .project
+{
+  background-color: white;
+  width: 70%;
+  border-radius: 7px;
+  padding:7%;
+}
+}
+
+.center
+{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+.id
+{
+    display: table-cell;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 3px;
+    border-color: #d3d3d3;
+    padding: 1%;
+}
+body{
+  font:georgia;
+}
+.btn
+{
+  font-size: 20px;
+  margin-top: 2%;
+  width: 50%;
+  padding: 2%;
+  color: white;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 6px;
+  border-color: #3D73FC;
+  background-color: #3D73FC;
+}
+
+.btn:hover
+{
+  background-color: #5B6D9A;
+}
+.img{
+  width:100%; 
+  height:25%;
+}
+
+.alert
+{
+  text-align: center;
+  font-size: 18px;
+  margin: 2%;
+  border-radius: 5px;
+  padding: 2%;
+}
+.fail
+{
+  display: block;
+  background-color: #ff000052;
+  color: red;
+}
+.success
+{
+  background-color: #00800061;
+  color:green;
+}
